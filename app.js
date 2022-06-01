@@ -34,7 +34,8 @@ var jsonData=JSON.stringify(data);
 const url="https://us12.api.mailchimp.com/3.0/lists/2a384f3aad";
 const options = {
   method:"POST",
-  auth:"Prashant:d070778a227bf95e52d4e31114d5160c-us12"
+  auth:"Prashant:5f29309d92a5a61b90d7fda767d8e44d-us12"
+  
 }
 const request=https.request(url,options,function(response){
 if(response.statusCode===200){
